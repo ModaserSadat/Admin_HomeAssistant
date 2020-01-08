@@ -1,4 +1,4 @@
-package com.example.homeassistant;
+package com.example.homeassistantadmin;
 
 import org.junit.Test;
 

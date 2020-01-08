@@ -1,4 +1,4 @@
-package com.example.homeassistant;
+package com.example.homeassistantadmin;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -41,7 +41,7 @@ public class ProfileActivity extends AppCompatActivity {
         }
         else{
             //user not signed in, go to main Activity
-            startActivity(new Intent(ProfileActivity.this,MainActivity.class));
+            startActivity(new Intent(ProfileActivity.this,LoginActivity.class));
             finish();
         }
 
